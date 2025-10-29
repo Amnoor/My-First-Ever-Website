@@ -1,0 +1,12 @@
+.contact{
+    text-align: center;
+}
+.contact a{
+    color: blue;
+}
+.contact a:hover{
+    font-size: large;
+}
+.contact a:visited{
+    color: blue;
+}

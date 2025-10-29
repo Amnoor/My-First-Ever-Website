@@ -1,0 +1,51 @@
+.hero{
+    text-align: center;
+}
+.hero-title{
+    margin-top: 250px;
+    font-size: 100px;
+}
+.hero-button{
+    background-color: hsl(0, 0%, 90%);
+    font-size: larger;
+    padding: 10px;
+    cursor: pointer;
+}
+.hero-button:hover{
+    font-size: x-large;
+    background-color: hsl(0, 0%, 80%);
+}
+.about{
+    margin-top: 500px;
+    margin-bottom: 500px;
+    overflow: hidden;
+}
+.about img{
+    float: left;
+    margin-right: 40px;
+    display: block;
+}
+.about h2{
+    text-align: right;
+    margin: 0px;
+    font-size: xxx-large;
+}
+.about h3{
+    text-align: right;
+    margin: 0px;
+    font-size: xx-large;
+}
+.about p{
+    text-align: right;
+    margin: 0px;
+}
+@media (max-width: 768px){
+    .hero-title{
+        margin-top: 200px;
+        font-size: 50px;
+    }
+    .about{
+        margin-top: 250px;
+        margin-bottom: 250px;
+    }
+}

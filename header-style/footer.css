@@ -1,0 +1,13 @@
+.footer{
+    background-color: hsl(0, 0%, 50%);
+}
+.footer p{
+display: inline-block;
+}
+.footer img{
+    width: 30px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
